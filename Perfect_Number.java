@@ -1,4 +1,5 @@
 //brute force to find the positive number.
+
 class Solution {
     public boolean checkPerfectNumber(int num) {
         int rem = 0;
