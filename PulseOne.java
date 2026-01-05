@@ -1,4 +1,5 @@
 //This is the brute force approch but fast enough and don't need to improve
+
 class Solution {
     public int[] plusOne(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {
