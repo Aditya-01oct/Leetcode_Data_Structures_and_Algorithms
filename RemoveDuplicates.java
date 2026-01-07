@@ -1,4 +1,5 @@
 //this is a brute force technique 
+
 public class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0)
