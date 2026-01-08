@@ -1,4 +1,5 @@
 //This is a enhanced approch in which we use binary search algorithm for log n time complixity.
+
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int start = 0;
