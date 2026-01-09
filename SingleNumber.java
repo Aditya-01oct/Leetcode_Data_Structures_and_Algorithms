@@ -1,4 +1,5 @@
 //This is a optimized approch and i dont have to update the solution
+
 class Solution {
     public int singleNumber(int[] nums) {
         int ans=0;
