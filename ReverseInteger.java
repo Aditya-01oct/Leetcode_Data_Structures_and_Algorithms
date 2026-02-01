@@ -1,3 +1,4 @@
+//Solution
 class Solution {
     public int reverse(int x) {
         int rem=0,num=0;
