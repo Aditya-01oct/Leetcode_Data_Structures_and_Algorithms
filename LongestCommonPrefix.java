@@ -1,4 +1,5 @@
 //this is an optimized way to find the longest common prefix
+
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         StringBuilder res = new StringBuilder();
