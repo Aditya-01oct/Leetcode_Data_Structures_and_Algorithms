@@ -1,5 +1,4 @@
 //This is already a optimized code hence no need to optimize it.
-
 class Solution {
     public int countDigits(int num) {
         int org = num,count = 0;
