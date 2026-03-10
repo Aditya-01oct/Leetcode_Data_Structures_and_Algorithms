@@ -1,5 +1,7 @@
 //Brute force to find the palindrome number
 
+
+
 class Solution {
     
     public boolean isPalindrome(int x) {
