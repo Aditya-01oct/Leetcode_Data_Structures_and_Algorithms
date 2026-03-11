@@ -1,4 +1,5 @@
 //can be optimized
+
 class Solution {
     public boolean isThree(int n) {
         int count = 0;
