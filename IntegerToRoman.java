@@ -8,6 +8,7 @@ class Solution {
                 s += symbols[i];
                 num -= values[i];
             }
+            
         }
         return s;
     }
