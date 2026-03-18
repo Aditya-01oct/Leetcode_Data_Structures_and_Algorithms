@@ -1,4 +1,4 @@
-//
+// This is brute force which gives 100% outcome
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
