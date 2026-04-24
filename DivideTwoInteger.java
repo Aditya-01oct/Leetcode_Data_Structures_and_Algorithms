@@ -9,6 +9,7 @@ class Solution {
         int sign = 1;
         if(dividend>0 && divisor<0) sign = -1;
         if(dividend<0 && divisor>0) sign = -1;
+        
         long n = Math.abs((long)dividend);
         long d = Math.abs((long)divisor);
         int ans = 0;
