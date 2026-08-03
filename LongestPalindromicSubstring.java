@@ -3,7 +3,6 @@ public class Solution {
         if (s.length() <= 1) {
             return s;
         }
-
         int maxLen = 1;
         String maxStr = s.substring(0, 1);
 
