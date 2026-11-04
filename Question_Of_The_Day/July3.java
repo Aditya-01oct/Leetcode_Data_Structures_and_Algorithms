@@ -8,7 +8,6 @@ class Solution {
         int maxCost = 0;
 
         for (int i = 0; i < n; i++) graph[i] = new ArrayList<>();
-
         for (int[] e : edges) {
             graph[e[0]].add(new int[]{e[1], e[2]});
             indegree[e[1]]++;
