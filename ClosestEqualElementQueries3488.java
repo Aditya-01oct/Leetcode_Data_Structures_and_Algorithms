@@ -12,6 +12,7 @@ class Solution {
                 ans.add(-1);
                 continue;
             }
+            
             int pos = Collections.binarySearch(v, q);
             int res = Integer.MAX_VALUE;
             int left = v.get((pos - 1 + v.size()) % v.size());
