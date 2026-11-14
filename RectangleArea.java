@@ -6,14 +6,12 @@ class Solution {
         int y5 = Math.max(ay1, by1);
         int x6 = Math.min(ax2, bx2);
         int y6 = Math.min(ay2, by2);
-
         int x=x6-x5;
         int y=y6-y5;
         int a3=x*y;
         if(x<0 || y<0){
             a3=0;
         }
-        
         return a1+a2-a3;
     }
 }
